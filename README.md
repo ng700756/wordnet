@@ -12,8 +12,9 @@ tdbloader2 to load the WordNet 3.1 data
 to test: use elephant query
 - curl -O https://raw.githubusercontent.com/lumenrobot/relex-id/master/core/elephant.sparql
 - cd jena
-- ./bin/tdbquery --loc=../fuseki/wn31 --file ../elephant.sparql 
+- ./bin/tdbquery --loc=../fuseki/wn31 --file ../elephant.sparql º
 
 
 # Reference
 https://github.com/lumenrobot/relex-id
+https://github.com/limves/wordnet
