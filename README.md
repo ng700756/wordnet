@@ -1,7 +1,7 @@
 # wordnet
 Some issues to work with the ontology
 
-
+    wget https://github.com/limves/wordnet/raw/master/wn31.nt.zip
 - wget http://www-us.apache.org/dist/jena/binaries/apache-jena-3.1.0.tar.gz
 - wget http://www-us.apache.org/dist/jena/binaries/apache-jena-fuseki-2.4.0.tar.gz
 - tar xzvf apache-jena-fuseki-2.4.0.tar.gz
