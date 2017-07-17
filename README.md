@@ -9,14 +9,15 @@ Some issues to work with the ontology
 
 tdbloader2 to load the WordNet 3.1 data
 
-    cd apache-jena-3.3.0    
+    mkdir apache-jena-fuseki-2.6.0/db
+    mkdir apache-jena-fuseki-2.6.0/db/win31
     ./apache-jena-3.3.0/bin/tdbloader2 --loc apache-jena-fuseki-2.6.0/db/wn31 wn31.nt
 
 to test: use elephant query
-- curl -O https://raw.githubusercontent.com/lumenrobot/relex-id/master/core/elephant.sparql
-- cd jena
-- ./bin/tdbquery --loc=../fuseki/wn31 --file ../elephant.sparql º
 
+    curl -O https://raw.githubusercontent.com/lumenrobot/relex-id/master/core/elephant.sparql
+    cd apache-jena-fuseki-2.6.0
+    ./bin/tdbquery --loc=../fuseki/wn31 --file ../elephant.sparql
 
 # Reference
 https://github.com/lumenrobot/relex-id
