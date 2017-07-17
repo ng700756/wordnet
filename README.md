@@ -2,9 +2,9 @@
 Some issues to work with the ontology
 
 
-- wget http://www-us.apache.org/dist/jena/binaries/apache-jena-3.1.0.tar.gz
-- wget http://www-us.apache.org/dist/jena/binaries/apache-jena-fuseki-2.4.0.tar.gz
-- tar xzvf apache-jena-fuseki-2.4.0.tar.gz
+    wget http://www-eu.apache.org/dist/jena/binaries/apache-jena-3.3.0.tar.gz
+    wget http://www-eu.apache.org/dist/jena/binaries/apache-jena-fuseki-2.6.0.tar.gz
+    tar xzvf apache-jena-fuseki-*.tar.gz
 
 tdbloader2 to load the WordNet 3.1 data
 - bin/bin/tdbloader2 --loc fuseki/db/wn31 wn31.nt
