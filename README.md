@@ -8,6 +8,7 @@ Some issues to work with the ontology
     tar xzvf apache-jena-3*.tar.gz
 
 tdbloader2 to load the WordNet 3.1 data
+
     cd apache-jena-3.3.0    
     ./apache-jena-3.3.0/bin/tdbloader2 --loc apache-jena-fuseki-2.6.0/db/wn31 wn31.nt
 
