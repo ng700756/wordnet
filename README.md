@@ -17,6 +17,11 @@ to test: use elephant query
 
     curl -O https://raw.githubusercontent.com/lumenrobot/relex-id/master/core/elephant.sparql
     ./apache-jena-3.3.0/bin/tdbquery --loc=apache-jena-fuseki-2.6.0/db/wn31 --file elephant.sparql 
+    
+As server
+
+     java -Xmx2048m -Xms2048m  -jar fuseki-server.jar --loc db /db/wn31
+     http://localhost:3030/
 
 # Reference
 https://github.com/lumenrobot/relex-id
