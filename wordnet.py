@@ -9,7 +9,8 @@ from nltk.corpus import wordnet
 from flask import Flask
 app = Flask(__name__)
 
-nltk.download('omw') # Open Multilingual WordNet
+nltk.download("all")
+#nltk.download('omw') # Open Multilingual WordNet
 from nltk.corpus import wordnet as wn
 print(wn.lemmas('prueba', lang='spa'))
 
